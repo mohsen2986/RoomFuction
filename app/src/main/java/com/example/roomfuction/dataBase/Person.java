@@ -43,6 +43,7 @@ public class Person {
         this.number=number;
     }
     //ask for this functions
+    public void setName(String name){this.name=name;}
     public void setFamily(String family){this.family=family;}
     public void setGender(Boolean gender){this.gender=gender;}
     public void setNumber(int number){this.number=number;}
